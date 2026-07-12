@@ -1,16 +1,126 @@
-# React + Vite
+# 👋 Hi, I'm Zahra Azimi
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<h3 align="center">
+Front-End Developer • React Developer
+</h3>
 
-Currently, two official plugins are available:
+<p align="center">
+I build modern, responsive and interactive web applications using React, Tailwind CSS and modern front-end technologies.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Website
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **https://zahra-portfolio-lilac.vercel.app/**
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 About Me
+
+- 💻 Front-End Developer
+- ⚛️ React Developer
+- 🎨 Passionate about UI / UX
+- 📱 Responsive Design Enthusiast
+- 🌱 Currently improving my React ecosystem skills
+- 🎯 Looking for Front-End opportunities
+
+---
+
+## 🛠 Tech Stack
+
+### Languages
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+### Frameworks & Libraries
+
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+## ✨ Portfolio Features
+
+- 🌙 Dark / Light Mode
+- 🌍 English & Persian Languages
+- 📱 Fully Responsive
+- ⚡ Smooth Animations
+- 🎓 Education Section
+- 📜 Certificates Section
+- 📂 Portfolio Projects
+- 📬 Contact Form
+
+---
+
+## 📂 Featured Projects
+
+### 🛒 Digikala Landing Page
+
+Responsive landing page inspired by Digikala.
+
+### 🛒 Digikala Responsive Website
+
+Responsive implementation using HTML, CSS and JavaScript.
+
+### ⚛️ Digikala React
+
+Modern React version with reusable components.
+
+### 🍃 Golestan Tea
+
+Responsive landing page for Golestan Tea.
+
+### 👩‍💻 Personal Portfolio
+
+Personal portfolio website built with React & Tailwind CSS.
+
+---
+
+## 📜 Certificates
+
+- Front-End Web Development
+- React.js Development
+
+---
+
+## 📫 Contact
+
+📧 Email
+
+**zahraazm222@gmail.com**
+
+💼 LinkedIn
+
+https://www.linkedin.com/in/zahra-azimi-672938420/
+
+💻 GitHub
+
+https://github.com/zahra85azimi
+
+🌐 Portfolio
+
+https://zahra-portfolio-lilac.vercel.app/
+
+---
+
+## ⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub.
+
+---
+
+<p align="center">
+Made with ❤️ by Zahra Azimi
+</p>
