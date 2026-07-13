@@ -2,12 +2,18 @@ import { FiDownload, FiMail } from "react-icons/fi";
 import { Link } from "react-scroll";
 import { useLanguage } from "../../context/LanguageContext";
 
-// بعداً این فایل رو اضافه کن
-// src/assets/files/Zahra-Azimi-CV.pdf
-// import cv from "../../assets/files/Zahra-Azimi-CV.pdf";
-
 function HeroButtons() {
   const { language } = useLanguage();
+
+  const resume =
+    language === "fa"
+      ? "/Zahra_Azimi_Resume_FA.pdf"
+      : "/Zahra_Azimi_Resume_EN.pdf";
+
+  const fileName =
+    language === "fa"
+      ? "Zahra_Azimi_Resume_FA.pdf"
+      : "Zahra_Azimi_Resume_EN.pdf";
 
   return (
     <div
@@ -18,19 +24,8 @@ function HeroButtons() {
       {/* Download CV */}
 
       <a
-        // بعداً این دو خط رو فعال کن
-        // href={cv}
-        // download="Zahra-Azimi-CV.pdf"
-
-        href="#"
-        onClick={(e) => {
-          e.preventDefault();
-          alert(
-            language === "fa"
-              ? "به‌زودی رزومه برای دانلود قرار می‌گیرد."
-              : "CV will be available soon.",
-          );
-        }}
+        href={resume}
+        download={fileName}
         className="
           rounded-xl
           px-8
@@ -46,7 +41,6 @@ function HeroButtons() {
           dark:hover:bg-sky-500
           hover:-translate-y-1
           hover:shadow-sky-300/50
-          cursor-pointer
         "
       >
         <span className="flex items-center gap-2">
@@ -54,6 +48,9 @@ function HeroButtons() {
           {language === "fa" ? "دانلود رزومه" : "Download CV"}
         </span>
       </a>
+
+      {/* Contact */}
+
       <Link
         to="contact"
         smooth={true}
