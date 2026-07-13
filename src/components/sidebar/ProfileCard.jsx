@@ -1,4 +1,5 @@
-import profileImage from "../../assets/images/profile/sidebar-profile.JPEG";
+import profileLight from "../../assets/images/profile/sidebar-profile.png";
+import profileDark from "../../assets/images/profile/sidebar-profile-dark.png";
 import { useLanguage } from "../../context/LanguageContext";
 
 function ProfileCard() {
@@ -17,21 +18,38 @@ function ProfileCard() {
           "
         />
         <img
-          src={profileImage}
+          src={profileLight}
           alt={language === "fa" ? "زهرا عظیمی" : "Zahra Azimi"}
           className="
             relative
             h-40
             w-40
             rounded-full
-            border-[6px]
-            border-white
             object-cover
             shadow-xl
             transition-all
             duration-500
             hover:scale-105
             hover:rotate-1
+            dark:hidden
+          "
+        />
+        <img
+          src={profileDark}
+          alt={language === "fa" ? "زهرا عظیمی" : "Zahra Azimi"}
+          className="
+            relative
+            hidden
+            h-40
+            w-40
+            rounded-full
+            object-cover
+            shadow-xl
+            transition-all
+            duration-500
+            hover:scale-105
+            hover:rotate-1
+            dark:block
           "
         />
       </div>
