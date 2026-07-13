@@ -1,5 +1,5 @@
-import profileLight from "../../assets/images/profile/sidebar-profile.png";
-import profileDark from "../../assets/images/profile/sidebar-profile-dark.png";
+import profileLight from "../../assets/images/profile/sidebar-profile.PNG";
+import profileDark from "../../assets/images/profile/sidebar-profile-dark.PNG";
 import { useLanguage } from "../../context/LanguageContext";
 
 function ProfileCard() {
